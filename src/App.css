@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: center;
+  height: 100vh;
+  background: var(--Very-Light-Gray, #f5f6fa);
+}
+input {
+  overflow-x: auto;
+  width: 100%;
+}
